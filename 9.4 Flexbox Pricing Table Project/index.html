@@ -13,9 +13,12 @@
 
     /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
-      
+      .pricing-container{
+        flex-direction: column;
+        height: 100%;
+      }  
     }
-   
+    /* container */
     .pricing-container{
       display: flex;
       justify-content: center;
@@ -23,7 +26,7 @@
       height: 100vh;
       gap: 2rem;
     }
-
+  /* items inside the container */
     .pricing-plan{ 
       max-width: 400px;  
       padding: 20px;
@@ -54,13 +57,13 @@
     .plan-features li{
       margin-bottom: 10px;
     }
+
     .plan-button{
       background-color: #ff6600;
       color: white;
       padding: 10px;
       border-radius: 5px;
-      border: none;
-      
+      border: none;     
     }
 
 
