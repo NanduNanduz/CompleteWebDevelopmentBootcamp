@@ -34,11 +34,11 @@ Your contributions are highly valued, no matter your level of experience! We enc
 
 A big thank you to all the [Contributors](/CONTRIBUTORS.md) who have helped make this project better!
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://github.com/NanduNanduz/CompleteWebDevelopmentBootcamp/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=NanduNanduz/CompleteWebDevelopmentBootcamp" alt="Contributors" />
   </a>
-</p>
+</p> -->
 
 ## License 📄
 
