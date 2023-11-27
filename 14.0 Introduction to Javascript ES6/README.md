@@ -8,3 +8,6 @@
    
 ## Variables:
 
+Syntax :
+
+ Var Name = "JavaScript";
