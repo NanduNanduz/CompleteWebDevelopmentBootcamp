@@ -11,3 +11,5 @@
 Syntax :
 
 Var Name = "JavaScript";
+
+Naming Conventions for Javascript Variables :
