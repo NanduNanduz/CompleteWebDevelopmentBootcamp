@@ -12,7 +12,14 @@ Syntax :
 
 Var Name = "JavaScript";
 
-Naming Conventions for Javascript Variables :
+## Naming Conventions for Javascript Variables :
+
+1. Vriable name not be 'var'.
+2. Not start with number .
+3. Not allowed spacing .
+4. Finally names are only contain letters, number, dollar sign and underscore .
+5. Can be camelcase.
+
 
 
 
