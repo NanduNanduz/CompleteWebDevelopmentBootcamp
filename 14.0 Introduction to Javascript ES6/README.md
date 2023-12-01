@@ -23,7 +23,3 @@ Var Name = "JavaScript";
 ## String Concatenation
 
 "a"+" "+"b"=a b
-
-
-
-
