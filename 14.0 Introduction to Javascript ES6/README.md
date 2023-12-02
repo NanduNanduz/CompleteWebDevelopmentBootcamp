@@ -24,5 +24,7 @@ Var Name = "JavaScript";
 
 "a"+" "+"b"=a b
 
--> count of charecters :  string.length
+-> count of characters :  string.length.
+
+-> Choose characters : string.slice(x,y);
 
