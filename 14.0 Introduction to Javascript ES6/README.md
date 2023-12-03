@@ -28,3 +28,4 @@ Var Name = "JavaScript";
 
 -> Choose characters : string.slice(x,y);
 
+-> Changing case : name.toUpperCase() &
