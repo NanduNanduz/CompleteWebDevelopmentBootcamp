@@ -9,3 +9,5 @@
       var restOfName = name.slice(1,name.length);
       var capitalizedName = upperCaseFirstChar + restOfName;
       alert("hai"+ capitalizedName);
+
+      
