@@ -1,3 +1,7 @@
+
+
+//******** Run the code in a console of a web browser *********
+
 // 1.Create the first character to uppercase in a paragraph.
       //a. Create a var that store the name that user enters via promt.
       //b. Capitalise the first letter of their name .

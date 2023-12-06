@@ -29,3 +29,9 @@ Var Name = "JavaScript";
 -> Choose characters : string.slice(x,y);
 
 -> Changing case : name.toUpperCase(); & name.toLowerCase();
+
+## Increment and Decrement Operators
+
+-> Increment Operator : x = x+1 --> x++; (x = x+2 ==> x+=2)
+
+-> Decrement Operator : x = x-1 --> x--;
