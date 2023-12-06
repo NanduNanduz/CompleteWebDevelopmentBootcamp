@@ -13,3 +13,9 @@
       alert("Hai, "+ capitalizedName);
 
 
+//Basic Arithmetic and the Modulo Operator in Javascript
+
+
+var dogAge = prompt("How old is your dog?");
+humanAge = (dogAge-2)* 4 + 21;
+alert("Your age is "+ humanAge+ " years old in human age ");
