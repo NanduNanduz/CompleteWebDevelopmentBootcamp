@@ -23,3 +23,48 @@
 var dogAge = prompt("How old is your dog?");
 humanAge = (dogAge-2)* 4 + 21;
 alert("Your age is "+ humanAge+ " years old in human age ");
+
+
+//The Karel Chess Board Solution
+function main() {
+  beepersRight();
+  goUpTurnLeft();
+  beepersLeft();
+  goUpTurnRight();
+  beepersRight();
+  goUpTurnLeft();
+  beepersLeft();
+  goUpTurnRight();
+  beepersRight();
+}
+
+function goUpTurnRight() {
+  turnRight();
+  move();
+  turnRight();
+}
+
+function goUpTurnLeft() {
+  turnLeft();
+  move();
+  turnLeft();
+}
+
+function beepersRight() {
+  putBeeper();
+  move();
+  move();
+  putBeeper();
+  move();
+  move();
+  putBeeper();
+}
+
+function beepersLeft() {
+  move();
+  putBeeper();
+  move();
+  move();
+  putBeeper();
+  move();
+}
