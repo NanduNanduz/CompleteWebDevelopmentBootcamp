@@ -70,7 +70,6 @@ function beepersLeft() {
 // Where x, y and z are replaced with the actual calculated numbers.
 // For this challenge, assume there are 365 days in a year, 52 weeks in a year and 12 months in a year.
 
-
 function lifeInWeeks(age) {
   /************Don't change the code above************/
 
@@ -93,6 +92,3 @@ function lifeInWeeks(age) {
 }
 
 lifeInWeeks(19);
-
-
-
