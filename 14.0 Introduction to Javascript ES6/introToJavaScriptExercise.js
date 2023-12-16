@@ -91,8 +91,6 @@ function lifeInWeeks(age) {
   /*************Don't change the code below**********/
 }
 
-
-
 lifeInWeeks(19);
 
 //Creating BMI Calculator
@@ -112,3 +110,8 @@ var bmi = bmiCalculator(65, 1.8);
 bmi should equal 20 when it's rounded to the nearest whole number.
 
 */
+
+
+// Random Number Generating In JavaScript
+
+var n = Math.random();
