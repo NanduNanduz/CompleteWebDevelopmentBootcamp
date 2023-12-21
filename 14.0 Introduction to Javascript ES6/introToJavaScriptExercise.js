@@ -117,6 +117,7 @@ var n = Math.random();
 
 // Random Number Generating In JavaScript : Building a love calculator
 
+
 prompt("What Is Your Name?");
 prompt("What Is Your Partners Name?");
 
