@@ -115,6 +115,7 @@ bmi should equal 20 when it's rounded to the nearest whole number.
 
 var n = Math.random();
 
+
 // Random Number Generating In JavaScript : Building a love calculator
 
 
