@@ -5,7 +5,9 @@
 //b. Capitalise the first letter of their name .
 //c. rest of the charecter should lowercase.
 //d. We use the capitalized version of their name to greet them using an alert.
+
 //solution :
+
 var name = prompt("What is your name?");
 var firstChar = name.slice(0, 1);
 var upperCaseFirstChar = firstChar.toUpperCase();
