@@ -93,6 +93,7 @@ function lifeInWeeks(age) {
   /*************Don't change the code below**********/
 }
 
+
 lifeInWeeks(19);
 
 //Creating BMI Calculator
