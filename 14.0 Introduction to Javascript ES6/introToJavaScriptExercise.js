@@ -66,6 +66,8 @@ function beepersLeft() {
   move();
 }
 
+//---------------------------------------------Exercise 1: Weeks and Months We Have Left---------------------------------------
+
 // In this challenge, you are going to create a function that tells us how many days, weeks and months we have left if we live until 90 years old.
 // It will take your current age as the input and console.logs a message with our time left in this format:
 // You have x days, y weeks, and z months left.
@@ -93,9 +95,9 @@ function lifeInWeeks(age) {
   /*************Don't change the code below**********/
 }
 
+// -------------------------------------------Exercise 2: BMI Calculator--------------------------------------------------
 
 lifeInWeeks(19);
-
 //Creating BMI Calculator
 //Create your function below this line.
 //The first parameter should be the weight and the second should be the height.
@@ -108,25 +110,46 @@ var bmi = bmiCalculator(65, 1.8);
 console.log(bmi);
 
 /* If my weight is 65Kg and my height is 1.8m, I should be able to call your function like this:
-
 var bmi = bmiCalculator(65, 1.8); 
-
 bmi should equal 20 when it's rounded to the nearest whole number.
-
 */
 
-// Random Number Generating In JavaScript
-
+//------------------------------------------Exercise 3:  Random Number Generating In JavaScript----------------------------
 var n = Math.random();
 
+// -----------------------------------------Exercise 4: Building a love calculator-------------------------------------
 
 // Random Number Generating In JavaScript : Building a love calculator
-
-
 prompt("What Is Your Name?");
 prompt("What Is Your Partners Name?");
 
 var loveScore = Math.random() * 100;
 loveScore = Math.floor(loveScore) + 1;
 prompt("Your Love Score is " + loveScore + "%");
+
+//--------------------------------------------Exercise 5: leap year-------------------------------------------------
+
+function isLeap(year) {  
+/**************Don't change the code above****************/    
+    var year;
+    //Write your code here.    
+if(year%4==0){
+    if(year%100==0){
+        if(year%400==0){
+            return ("Leap year.");
+        }
+        else{
+            return ("Not leap year.");
+        }
+    }
+    else{
+        return ("Leap year.");
+    }
+}
+else{
+    return ("Not leap year.");
+}
+/**************Don't change the code below****************/    
+}
+isLeap(2024);
 
