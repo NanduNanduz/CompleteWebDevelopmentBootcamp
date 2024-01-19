@@ -129,27 +129,23 @@ prompt("Your Love Score is " + loveScore + "%");
 
 //--------------------------------------------Exercise 5: leap year-------------------------------------------------
 
-function isLeap(year) {  
-/**************Don't change the code above****************/    
-    var year;
-    //Write your code here.    
-if(year%4==0){
-    if(year%100==0){
-        if(year%400==0){
-            return ("Leap year.");
-        }
-        else{
-            return ("Not leap year.");
-        }
+function isLeap(year) {
+  /**************Don't change the code above****************/
+  var year;
+  //Write your code here.
+  if (year % 4 == 0) {
+    if (year % 100 == 0) {
+      if (year % 400 == 0) {
+        return "Leap year.";
+      } else {
+        return "Not leap year.";
+      }
+    } else {
+      return "Leap year.";
     }
-    else{
-        return ("Leap year.");
-    }
-}
-else{
-    return ("Not leap year.");
-}
-/**************Don't change the code below****************/    
+  } else {
+    return "Not leap year.";
+  }
+  /**************Don't change the code below****************/
 }
 isLeap(2024);
-
