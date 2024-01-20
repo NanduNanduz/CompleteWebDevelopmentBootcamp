@@ -174,5 +174,12 @@ function fizzBuzz(){
     console.log(output);
 }
  
+//----------------------------------------- Exercise 7: pick the random person ---------------------------------------------
 
+function whosPaying(names) {
 
+  var numOfPeople = names.length;
+  var position = Math.floor(Math.random() * numOfPeople);
+  var randomPerson = names[position];
+  return randomPerson + " is going to buy lunch today!";
+}
