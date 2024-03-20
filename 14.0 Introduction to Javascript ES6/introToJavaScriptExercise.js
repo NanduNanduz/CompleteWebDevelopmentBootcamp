@@ -196,3 +196,19 @@ function fibonacciGenerator(n) {
 }
 output = fibonacciGenerator(5);
 console.log(output);
+
+
+//-------------------------DOM - Selecting HTML Elements With JavaScript-------------------
+
+getElementByTagName("li");
+getElelmentByClassName("btn");
+document.querySelector("h1"); // element
+document.querySelector("#title"); // id
+document.querySelector(".btn"); // Class
+document.querySelector("#li a");  // Selecting anchor tag inside the list 
+document.querySelector("li a").style.color = "red";//for changing color
+
+document.querySelector("a").getAttribute("href"); // for getting href link
+document.querySelector("a").setAttribute("href","https://www.google.com");// change the existing link
+
+
