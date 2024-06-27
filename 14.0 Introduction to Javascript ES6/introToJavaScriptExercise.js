@@ -212,3 +212,14 @@ document.querySelector("a").getAttribute("href"); // for getting href link
 document.querySelector("a").setAttribute("href","https://www.google.com");// change the existing link
 
 
+//-----------------------------JavaScript Object -------------------------------------------
+
+function HouseKeeper(yearsOfExperience, name, cleaningRepertoire) //Constructor Function  is used to create js Object
+{
+  this.yearsOfExperience = yearsOfExperience;
+  this.name = name;
+  this.cleaningRepertoire = cleaningRepertoire;
+}
+
+var houseKeeper1 = new HouseKeeper(3, "Tom", ["bedroom", "Lobby"]);// Initialise Object
+console.log(houseKeeper1.yearsOfExperience);// o/p : 3
