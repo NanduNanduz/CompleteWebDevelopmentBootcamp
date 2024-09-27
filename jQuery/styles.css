@@ -1,3 +1,10 @@
-body{
-    background-color: red;;
+.big-title{
+    color: red;
+    font-size: 10rem;
+    font-family: cursive;
+
+}
+
+.margin-50{
+    margin: 50px;
 }
